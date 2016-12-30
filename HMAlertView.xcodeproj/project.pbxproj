@@ -15,6 +15,7 @@
 		58E5B16E1E16449200C2F114 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58E5B16C1E16449200C2F114 /* LaunchScreen.storyboard */; };
 		58E5B1791E16449300C2F114 /* HMAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E5B1781E16449300C2F114 /* HMAlertViewTests.m */; };
 		58E5B1841E16449300C2F114 /* HMAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E5B1831E16449300C2F114 /* HMAlertViewUITests.m */; };
+		58E5B1941E16459500C2F114 /* HMAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E5B1931E16459500C2F114 /* HMAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		58E5B17F1E16449300C2F114 /* HMAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58E5B1831E16449300C2F114 /* HMAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMAlertViewUITests.m; sourceTree = "<group>"; };
 		58E5B1851E16449300C2F114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58E5B1921E16459500C2F114 /* HMAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMAlertView.h; sourceTree = "<group>"; };
+		58E5B1931E16459500C2F114 /* HMAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,7 @@
 			children = (
 				58E5B1611E16449200C2F114 /* AppDelegate.h */,
 				58E5B1621E16449200C2F114 /* AppDelegate.m */,
+				58E5B1911E16459500C2F114 /* HMAlertView */,
 				58E5B1641E16449200C2F114 /* ViewController.h */,
 				58E5B1651E16449200C2F114 /* ViewController.m */,
 				58E5B1671E16449200C2F114 /* Main.storyboard */,
@@ -138,6 +142,15 @@
 				58E5B1851E16449300C2F114 /* Info.plist */,
 			);
 			path = HMAlertViewUITests;
+			sourceTree = "<group>";
+		};
+		58E5B1911E16459500C2F114 /* HMAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				58E5B1921E16459500C2F114 /* HMAlertView.h */,
+				58E5B1931E16459500C2F114 /* HMAlertView.m */,
+			);
+			path = HMAlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58E5B1941E16459500C2F114 /* HMAlertView.m in Sources */,
 				58E5B1661E16449200C2F114 /* ViewController.m in Sources */,
 				58E5B1631E16449200C2F114 /* AppDelegate.m in Sources */,
 				58E5B1601E16449200C2F114 /* main.m in Sources */,
